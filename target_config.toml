@@ -46,3 +46,11 @@ file = "techno-22-07-23-4_21PM.png"
 startx = 490
 starty = -290
 priority = 127
+
+# FROM LEFT TO RIGHT
+[[structure]]
+name = "techno-memorial2"
+file = "techno-memorial2-22-07-2023-4_55PM.png"
+startx = -215
+starty = 242
+priority = 127
