@@ -58,7 +58,7 @@ priority = 127
 # FROM LEFT TO RIGHT
 [[structure]]
 name = "pixelperry"
-file = "pixelperry-22-07-2022-5_40PM.png"
+file = "pixelperry-v2.png"
 startx = -94
 starty = 176
 priority = 127
