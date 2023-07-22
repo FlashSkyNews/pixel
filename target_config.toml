@@ -59,6 +59,6 @@ priority = 127
 [[structure]]
 name = "pixelperry"
 file = "pixelperry-v2.png"
-startx = -94
+startx = -95
 starty = 176
 priority = 127
