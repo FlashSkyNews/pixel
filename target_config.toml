@@ -69,13 +69,13 @@ startx = -95
 starty = 176
 priority = 127
 
-# FROM LEFT TO RIGHT
-[[structure]]
-name = "spanisch"
-file = "spanisch.png"
-startx = -1000
-starty = 332
-priority = 127
+# # FROM LEFT TO RIGHT
+# [[structure]]
+# name = "spanisch"
+# file = "spanisch.png"
+# startx = -1000
+# starty = 332
+# priority = 127
 
 # FROM LEFT TO RIGHT
 [[structure]]
