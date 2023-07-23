@@ -85,3 +85,11 @@ file = "shrek.png"
 startx = 199
 starty = -783
 priority = 127
+
+# FROM LEFT TO RIGHT
+[[structure]]
+name = "gemaelde"
+file = "gemaelde.png"
+startx = -111
+starty = 587
+priority = 127
