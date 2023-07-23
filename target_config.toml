@@ -82,6 +82,6 @@ priority = 127
 [[structure]]
 name = "shrek"
 file = "shrek.png"
-startx = 198
+startx = 199
 starty = -783
 priority = 127
