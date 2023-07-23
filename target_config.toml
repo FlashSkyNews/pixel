@@ -74,7 +74,7 @@ priority = 127
 [[structure]]
 name = "gronkh"
 file = "gronkh_und_co.png"
-startx = 47
+startx = 211
 starty = -368
 priority = 127
 
