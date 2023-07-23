@@ -121,6 +121,6 @@ priority = 127
 [[structure]]
 name = "rosin"
 file = "rosin.png"
-startx = 107
-starty = 764
+startx = -109
+starty = 902
 priority = 127
