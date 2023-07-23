@@ -103,8 +103,8 @@ priority = 127
 
 # FROM LEFT TO RIGHT
 [[structure]]
-name = "reezschwein"
-file = "reezschwein.png"
+name = "reezeschwein"
+file = "reezeschwein.png"
 startx = 55
 starty = 737
 priority = 127
