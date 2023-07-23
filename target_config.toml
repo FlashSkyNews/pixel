@@ -2,7 +2,7 @@ ignored_colors = [
     #000000, # filter black, DO NOT USE "#"!!!
 ]
 allowed_colors = [
-    #000000, # allow black, DO NOT USE "#"!!!
+    "000000", # allow black, DO NOT USE "#"!!!
     "BE0039",
     "FF4500",
     "FFA800",
