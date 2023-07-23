@@ -78,3 +78,10 @@ startx = 211
 starty = -368
 priority = 127
 
+# FROM LEFT TO RIGHT
+[[structure]]
+name = "shrek"
+file = "shrek.png"
+startx = 204
+starty = -796
+priority = 127
