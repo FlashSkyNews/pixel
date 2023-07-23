@@ -108,3 +108,19 @@ file = "reezeschwein.png"
 startx = 55
 starty = 737
 priority = 127
+
+# FROM LEFT TO RIGHT
+[[structure]]
+name = "rvd"
+file = "rvd.png"
+startx = 16
+starty = 573
+priority = 127
+
+# FROM LEFT TO RIGHT
+[[structure]]
+name = "rosin"
+file = "rosin.png"
+startx = 187
+starty = 763
+priority = 127
