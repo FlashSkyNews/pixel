@@ -69,3 +69,12 @@ file = "spanisch.png"
 startx = -1000
 starty = 332
 priority = 127
+
+# FROM LEFT TO RIGHT
+[[structure]]
+name = "gronkh"
+file = "gronkh_und_co.png"
+startx = 47
+starty = -368
+priority = 127
+
