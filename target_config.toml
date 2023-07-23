@@ -100,3 +100,11 @@ file = "gemaelde.png"
 startx = -111
 starty = 587
 priority = 127
+
+# FROM LEFT TO RIGHT
+[[structure]]
+name = "reezschwein"
+file = "reezschwein.png"
+startx = 55
+starty = 737
+priority = 127
