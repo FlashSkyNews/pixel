@@ -130,6 +130,6 @@ priority = 127
 [[structure]]
 name = "dragon"
 file = "dragon.png"
-startx = 1118
+startx = 1108
 starty = 522
 priority = 127
