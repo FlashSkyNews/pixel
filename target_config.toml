@@ -127,3 +127,9 @@ startx = -1500
 starty = -1000
 priority = 127
 
+[[structure]]
+name = "dragon"
+file = "dragon.png"
+startx = 1118
+starty = 522
+priority = 127
