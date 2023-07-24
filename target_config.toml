@@ -26,7 +26,7 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 name = "techno_memorial_1"
 file = "techno_memorial_1.png"
 startx = 490
-starty = -296
+starty = -293
 priority = 127
 
 [[structure]]
