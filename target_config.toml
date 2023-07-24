@@ -160,3 +160,12 @@ startx = -1500
 starty = -248
 priority = 127
 disabled = false
+
+# FROM LEFT TO RIGHT
+[[structure]]
+name = "pokemon"
+file = "pokemon.png"
+startx = 1001
+starty = -963
+priority = 127
+disabled = false
