@@ -90,7 +90,7 @@ priority = 127
 name = "shrek"
 file = "shrek.png"
 startx = 199
-starty = -783
+starty = -796
 priority = 127
 
 # FROM LEFT TO RIGHT
