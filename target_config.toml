@@ -27,6 +27,7 @@ allowed_colors = [
     "D4D7D9",
     "FFFFFF"
 ]
+
 width = 3000
 height = 2000
 add-x = 1500
@@ -36,8 +37,8 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 
 # example:
 # [[structure]]
-# name = "flagge-ost"
-# file = "flagge-ost.png"
+# name = "name"
+# file = "name.png"
 # priority_file = "flagge-ost_prio.png"
 # startx = 1332
 # starty = 1122
@@ -47,39 +48,29 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 
 
 [[structure]]
-name = "techno-memorial1"
-file = "techno-22-07-23-4_21PM.png"
+name = "techno_memorial_1"
+file = "techno_memorial_1.png"
 startx = 490
-starty = -301
+starty = -298
 priority = 127
 
-
 [[structure]]
-name = "techno-memorial2"
-file = "techno-memorial2-22-07-2023-4_55PM.png"
+name = "techno_memorial_2"
+file = "techno_memorial_2.png"
 startx = -215
 starty = 242
 priority = 127
 
-
 [[structure]]
-name = "pixelperry"
-file = "pixelperry-v2.png"
+name = "perry"
+file = "perry.png"
 startx = -95
 starty = 175
 priority = 127
 
-# 
-# [[structure]]
-# name = "spanisch"
-# file = "spanisch.png"
-# startx = -1000
-# starty = 332
-# priority = 127
-
 [[structure]]
 name = "gronkh"
-file = "gronkh_und_co.png"
+file = "gronkh.png"
 startx = 211
 starty = -368
 priority = 127
@@ -127,8 +118,8 @@ starty = -753
 priority = 127
 
 [[structure]]
-name = "kewinborder"
-file = "kewin-border.png"
+name = "kewin_border"
+file = "kewin_border.png"
 startx = -1500
 starty = -754
 priority = 127
@@ -141,8 +132,8 @@ starty = 407
 priority = 127
 
 [[structure]]
-name = "oneplace1"
-file = "oneplace-1.png"
+name = "oneplace_1"
+file = "oneplace_1.png"
 startx = -1500
 starty = -247
 priority = 127
@@ -155,8 +146,8 @@ starty = -963
 priority = 127
 
 [[structure]]
-name = "oneplace2"
-file = "oneplace2.png"
+name = "oneplace_2"
+file = "oneplace_2.png"
 startx = 1284
 starty = 395
 priority = 127
