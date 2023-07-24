@@ -141,16 +141,9 @@ startx = 1108
 starty = 522
 priority = 127
 
-# [[structure]]
-# name = "gronkh_background"
-# file = "gronkh_background.png"
-# startx = ???
-# starty = ???
-# priority = 127
-
-# [[structure]]
-# name = "u_gronkh"
-# file = "u_gronkh.png"
-# startx = ???
-# starty = ???
-# priority = 127
+[[structure]]
+name = "gronkh_background"
+file = "gronkh_background.png"
+startx = -1499
+starty = -77
+priority = 127
