@@ -90,7 +90,7 @@ priority = 127
 name = "shrek"
 file = "shrek.png"
 startx = 172
-starty = -796
+starty = -797
 priority = 127
 
 # FROM LEFT TO RIGHT
@@ -157,7 +157,7 @@ disabled = false
 name = "oneplace1"
 file = "oneplace-1.png"
 startx = -1500
-starty = -248
+starty = -246
 priority = 127
 disabled = false
 
@@ -167,5 +167,14 @@ name = "pokemon"
 file = "pokemon.png"
 startx = 1001
 starty = -963
+priority = 127
+disabled = false
+
+# FROM LEFT TO RIGHT
+[[structure]]
+name = "oneplace2"
+file = "oneplace2.png"
+startx = 1284
+starty = 395
 priority = 127
 disabled = false
