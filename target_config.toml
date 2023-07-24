@@ -45,7 +45,7 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 # overlay_only = false
 # prio_in_picture = false
 
-# FROM LEFT TO RIGHT
+
 [[structure]]
 name = "techno-memorial1"
 file = "techno-22-07-23-4_21PM.png"
@@ -53,7 +53,7 @@ startx = 490
 starty = -290
 priority = 127
 
-# FROM LEFT TO RIGHT
+
 [[structure]]
 name = "techno-memorial2"
 file = "techno-memorial2-22-07-2023-4_55PM.png"
@@ -61,7 +61,7 @@ startx = -215
 starty = 242
 priority = 127
 
-# FROM LEFT TO RIGHT
+
 [[structure]]
 name = "pixelperry"
 file = "pixelperry-v2.png"
@@ -69,7 +69,7 @@ startx = -95
 starty = 176
 priority = 127
 
-# # FROM LEFT TO RIGHT
+# 
 # [[structure]]
 # name = "spanisch"
 # file = "spanisch.png"
@@ -77,7 +77,6 @@ priority = 127
 # starty = 332
 # priority = 127
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "gronkh"
 file = "gronkh_und_co.png"
@@ -85,7 +84,6 @@ startx = 211
 starty = -368
 priority = 127
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "shrek"
 file = "shrek.png"
@@ -93,7 +91,6 @@ startx = 172
 starty = -797
 priority = 127
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "gemaelde"
 file = "gemaelde.png"
@@ -101,7 +98,6 @@ startx = -111
 starty = 587
 priority = 127
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "reezeschwein"
 file = "reezeschwein.png"
@@ -109,7 +105,6 @@ startx = 55
 starty = 737
 priority = 127
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "rvd"
 file = "rvd.png"
@@ -117,7 +112,6 @@ startx = 16
 starty = 573
 priority = 127
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "rosin"
 file = "rosin.png"
@@ -125,7 +119,6 @@ startx = -109
 starty = 902
 priority = 127
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "kewin"
 file = "kewin.png"
@@ -134,7 +127,6 @@ starty = -753
 priority = 127
 disabled = false
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "kewinborder"
 file = "kewin-border.png"
@@ -143,7 +135,6 @@ starty = -754
 priority = 127
 disabled = false
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "glp"
 file = "glp.png"
@@ -152,7 +143,6 @@ starty = 405
 priority = 127
 disabled = false
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "oneplace1"
 file = "oneplace-1.png"
@@ -161,7 +151,6 @@ starty = -246
 priority = 127
 disabled = false
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "pokemon"
 file = "pokemon.png"
@@ -170,7 +159,6 @@ starty = -963
 priority = 127
 disabled = false
 
-# FROM LEFT TO RIGHT
 [[structure]]
 name = "oneplace2"
 file = "oneplace2.png"
