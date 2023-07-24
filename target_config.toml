@@ -132,3 +132,4 @@ file = "kewin.png"
 startx = -659
 starty = 642
 priority = 127
+disabled = true
