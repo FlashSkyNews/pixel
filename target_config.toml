@@ -140,10 +140,3 @@ file = "dragon.png"
 startx = 1108
 starty = 522
 priority = 127
-
-[[structure]]
-name = "xqc"
-file = "xqc.png"
-startx = -1499
-starty = -77
-priority = 127
