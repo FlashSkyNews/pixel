@@ -27,7 +27,7 @@ allowed_colors = [
     "D4D7D9",
     "FFFFFF"
 ]
-width = 2500
+width = 3000
 height = 2000
 add-x = 1500
 add-y = 1000
@@ -89,7 +89,7 @@ priority = 127
 [[structure]]
 name = "shrek"
 file = "shrek.png"
-startx = 199
+startx = 172
 starty = -796
 priority = 127
 
@@ -149,5 +149,14 @@ name = "glp"
 file = "glp.png"
 startx = -830
 starty = 405
+priority = 127
+disabled = false
+
+# FROM LEFT TO RIGHT
+[[structure]]
+name = "oneplace1"
+file = "oneplace-1.png"
+startx = -1500
+starty = -248
 priority = 127
 disabled = false
