@@ -27,7 +27,7 @@ name = "placeDE"
 file = "placeDE.png"
 startx = -1500
 starty = -1000
-priority = 127
+priority = 1
 
 [[structure]]
 name = "techno_memorial_1"
