@@ -113,12 +113,12 @@ startx = 1001
 starty = -963
 priority = 127
 
-[[structure]]
-name = "oneplace_2"
-file = "oneplace_2.png"
-startx = 1284
-starty = 395
-priority = 127
+# [[structure]]
+# name = "oneplace_2"
+# file = "oneplace_2.png"
+# startx = 1284
+# starty = 395
+# priority = 127
 
 [[structure]]
 name = "fuckspezlarge2"
