@@ -133,3 +133,4 @@ file = "gruener_dude.png"
 startx = 1318
 starty = 895
 priority = 127
+disable = true
