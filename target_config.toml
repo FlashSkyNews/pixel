@@ -50,7 +50,7 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 name = "techno-memorial1"
 file = "techno-22-07-23-4_21PM.png"
 startx = 490
-starty = -290
+starty = -289
 priority = 127
 
 
@@ -58,7 +58,7 @@ priority = 127
 name = "techno-memorial2"
 file = "techno-memorial2-22-07-2023-4_55PM.png"
 startx = -215
-starty = 242
+starty = 243
 priority = 127
 
 
@@ -66,7 +66,7 @@ priority = 127
 name = "pixelperry"
 file = "pixelperry-v2.png"
 startx = -95
-starty = 176
+starty = 177
 priority = 127
 
 # 
@@ -81,7 +81,7 @@ priority = 127
 name = "gronkh"
 file = "gronkh_und_co.png"
 startx = 211
-starty = -368
+starty = -367
 priority = 127
 
 [[structure]]
@@ -95,35 +95,35 @@ priority = 127
 name = "gemaelde"
 file = "gemaelde.png"
 startx = -111
-starty = 587
+starty = 588
 priority = 127
 
 [[structure]]
 name = "reezeschwein"
 file = "reezeschwein.png"
 startx = 55
-starty = 737
+starty = 738
 priority = 127
 
 [[structure]]
 name = "rvd"
 file = "rvd.png"
 startx = 16
-starty = 573
+starty = 574
 priority = 127
 
 [[structure]]
 name = "rosin"
 file = "rosin.png"
 startx = -109
-starty = 902
+starty = 903
 priority = 127
 
 [[structure]]
 name = "kewin"
 file = "kewin.png"
 startx = -1499
-starty = -753
+starty = -752
 priority = 127
 disabled = false
 
@@ -131,7 +131,7 @@ disabled = false
 name = "kewinborder"
 file = "kewin-border.png"
 startx = -1500
-starty = -754
+starty = -753
 priority = 127
 disabled = false
 
@@ -139,7 +139,7 @@ disabled = false
 name = "glp"
 file = "glp.png"
 startx = -830
-starty = 405
+starty = 406
 priority = 127
 disabled = false
 
