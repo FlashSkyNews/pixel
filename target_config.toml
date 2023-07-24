@@ -27,7 +27,7 @@ allowed_colors = [
     "D4D7D9",
     "FFFFFF"
 ]
-width = 2500
+width = 3000
 height = 2000
 add-x = 1500
 add-y = 1000
