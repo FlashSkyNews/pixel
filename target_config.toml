@@ -130,7 +130,7 @@ priority = 127
 [[structure]]
 name = "gruener_dude"
 file = "gruener_dude.png"
-startx = 1318
-starty = 895
+startx = 1305
+starty = 885
 priority = 127
-disable = true
+disable = false
