@@ -22,12 +22,12 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 # prio_in_picture = false
 
 
-# [[structure]]
-# name = "placeDE"
-# file = "placeDE.png"
-# startx = -1500
-# starty = -1000
-# priority = 1
+[[structure]]
+name = "placeDE"
+file = "placeDE.png"
+startx = -1500
+starty = -1000
+priority = 126
 
 [[structure]]
 name = "techno_memorial_1"
@@ -140,4 +140,3 @@ file = "dragon.png"
 startx = 1108
 starty = 522
 priority = 127
-# test
