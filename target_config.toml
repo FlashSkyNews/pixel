@@ -149,13 +149,6 @@ starty = 640
 priority = 127
 
 [[structure]]
-name = "pride-kick"
-file = "pride-kick.png"
-startx = -999
-starty = 640
-priority = 127
-
-[[structure]]
 name = "tuberart"
 file = "tuberart.png"
 startx = -795
