@@ -109,15 +109,8 @@ priority = 127
 [[structure]]
 name = "dragon"
 file = "dragon.png"
-startx = 1108
-starty = 522
-priority = 127
-
-[[structure]]
-name = "gigachad"
-file = "gigachad.png"
-startx = -1460
-starty = -8
+startx = 1096
+starty = 519
 priority = 127
 
 [[structure]]
