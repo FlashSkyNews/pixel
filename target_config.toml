@@ -137,8 +137,8 @@ priority = 127
 [[structure]]
 name = "gronkh_background"
 file = "gronkh_background.png"
-startx = -1461
-starty = -17
+startx = -1499
+starty = -77
 priority = 127
 
 [[structure]]
