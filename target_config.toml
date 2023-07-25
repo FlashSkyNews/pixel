@@ -93,13 +93,6 @@ starty = -754
 priority = 127
 
 [[structure]]
-name = "glp"
-file = "glp.png"
-startx = -830
-starty = 409
-priority = 127
-
-[[structure]]
 name = "oneplace_1"
 file = "oneplace_1.png"
 startx = -1500
@@ -135,10 +128,10 @@ starty = 522
 priority = 127
 
 [[structure]]
-name = "gronkh_background"
-file = "gronkh_background.png"
-startx = -1499
-starty = -77
+name = "gigachad"
+file = "gigachad.png"
+startx = -1460
+starty = -8
 priority = 127
 
 [[structure]]
