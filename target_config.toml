@@ -25,8 +25,8 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 [[structure]]
 name = "techno_memorial_1"
 file = "techno_memorial_1.png"
-startx = 490
-starty = -293
+startx = 500
+starty = -290
 priority = 127
 
 [[structure]]
@@ -109,8 +109,8 @@ priority = 127
 [[structure]]
 name = "dragon"
 file = "dragon.png"
-startx = 1096
-starty = 519
+startx = 1062
+starty = 475
 priority = 127
 
 [[structure]]
@@ -140,3 +140,12 @@ file = "stegosaurus-2.png"
 startx = 446
 starty = -938
 priority = 127
+
+[[structure]]
+name = "stegipplatte.png"
+file = "stegipplatte.png"
+disabled = false
+startx = -411
+starty = -960
+priority = 127
+
