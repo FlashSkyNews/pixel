@@ -147,3 +147,31 @@ file = "pride-kick.png"
 startx = -999
 starty = 640
 priority = 127
+
+[[structure]]
+name = "pride-kick"
+file = "pride-kick.png"
+startx = -999
+starty = 640
+priority = 127
+
+[[structure]]
+name = "tuberart"
+file = "tuberart.png"
+startx = -795
+starty = -368
+priority = 127
+
+[[structure]]
+name = "stegosaurus1"
+file = "stegosaurus-1.png"
+startx = 186
+starty = -335
+priority = 127
+
+[[structure]]
+name = "stegosaurus2"
+file = "stegosaurus-2.png"
+startx = 446
+starty = -938
+priority = 127
