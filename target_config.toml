@@ -23,13 +23,6 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 
 
 [[structure]]
-name = "placeDE"
-file = "placeDE.png"
-startx = -1500
-starty = -1000
-priority = 126
-
-[[structure]]
 name = "techno_memorial_1"
 file = "techno_memorial_1.png"
 startx = 490
@@ -142,8 +135,8 @@ starty = 522
 priority = 127
 
 [[structure]]
-name = "xqc"
-file = "XQC.png"
-startx = -1499
-starty = -77
+name = "gronkh_background"
+file = "gronkh_background.png"
+startx = -1461
+starty = -17
 priority = 127
