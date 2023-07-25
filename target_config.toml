@@ -140,3 +140,10 @@ file = "gronkh_background.png"
 startx = -1461
 starty = -17
 priority = 127
+
+[[structure]]
+name = "pride-kick"
+file = "pride-kick.png"
+startx = -999
+starty = 640
+priority = 127
