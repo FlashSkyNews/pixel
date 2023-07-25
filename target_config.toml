@@ -79,20 +79,6 @@ starty = 573
 priority = 127
 
 [[structure]]
-name = "kewin"
-file = "kewin.png"
-startx = -1499
-starty = -753
-priority = 127
-
-[[structure]]
-name = "kewin_border"
-file = "kewin_border.png"
-startx = -1500
-starty = -754
-priority = 127
-
-[[structure]]
 name = "oneplace_1"
 file = "oneplace_1.png"
 startx = -1500
