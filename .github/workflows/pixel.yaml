@@ -1,0 +1,88 @@
+name: generate pixel
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+    branches:
+      - 'main'
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pull-requests: write
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    outputs:
+      head: ${{ steps.head.outputs.head }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - run: ./bin/generate.sh
+      - name: Commit & Push changes
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.head_ref || github.ref_name }}
+      - run: echo $(git rev-parse HEAD)
+      - id: head
+        run: -|
+          echo "head=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - id: images
+        run: |
+          echo "default=$(curl -H "Content-Type: multipart/form-data" -H "authorization: ${{ secrets.ZIPLINE_TOKEN }}" -F file=@outputs/default_target.png ${{ secrets.ZIPLINE_HOST }}/api/upload | jq '.files[0]' -r)" >> "$GITHUB_OUTPUT"
+          echo "overlay=$(curl -H "Content-Type: multipart/form-data" -H "authorization: ${{ secrets.ZIPLINE_TOKEN }}" -F file=@outputs/overlay_target.png ${{ secrets.ZIPLINE_HOST }}/api/upload | jq '.files[0]' -r)" >> "$GITHUB_OUTPUT"
+
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        if: github.event_name == 'pull_request'
+        with:
+          message: |
+            # Default:
+            ![Default](${{ steps.images.outputs.default }})
+            # Overlay:
+            ![Overlay](${{ steps.images.outputs.overlay }})
+
+  # Single deploy job since we're just deploying
+  deploy:
+    needs: generate
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ${{needs.generate.outputs.head}}
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{needs.generate.outputs.head}}
+      - run: git rev-parse HEAD
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './outputs/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
