@@ -21,9 +21,88 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 # overlay_only = false
 # prio_in_picture = false
 
+
 [[structure]]
-name = "end"
-file = "end.png"
-startx = -1500
-starty = -1000
+name = "techno_memorial_1"
+file = "techno_memorial_1.png"
+startx = 500
+starty = -287
 priority = 127
+
+[[structure]]
+name = "techno_memorial_2"
+file = "techno_memorial_2.png"
+startx = -215
+starty = 241
+priority = 127
+
+[[structure]]
+name = "perry"
+file = "perry.png"
+startx = -95
+starty = 176
+priority = 127
+
+[[structure]]
+name = "shrek"
+file = "shrek.png"
+startx = 172
+starty = -797
+priority = 127
+
+[[structure]]
+name = "wanderer"
+file = "wanderer.png"
+startx = -111
+starty = 587
+priority = 127
+
+[[structure]]
+name = "reeze"
+file = "reeze.png"
+startx = 55
+starty = 737
+priority = 127
+
+[[structure]]
+name = "rvd"
+file = "rvd.png"
+startx = 16
+starty = 573
+priority = 127
+
+[[structure]]
+name = "pokemon"
+file = "pokemon.png"
+startx = 1001
+starty = -963
+priority = 127
+
+[[structure]]
+name = "dragon"
+file = "dragon.png"
+startx = 1062
+starty = 475
+priority = 127
+
+[[structure]]
+name = "tuberart"
+file = "tuberart.png"
+startx = -795
+starty = -368
+priority = 127
+
+[[structure]]
+name = "stegosaurus1"
+file = "stegosaurus-1.png"
+startx = 186
+starty = -335
+priority = 127
+
+[[structure]]
+name = "stegosaurus2"
+file = "stegosaurus-2.png"
+startx = 446
+starty = -938
+priority = 127
+
