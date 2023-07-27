@@ -21,7 +21,6 @@ default_prio = 120 # priority: higher number = higher chance of being placed
 # overlay_only = false
 # prio_in_picture = false
 
-
 [[structure]]
 name = "techno_memorial_1"
 file = "techno_memorial_1.png"
